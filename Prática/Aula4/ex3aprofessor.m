@@ -4,6 +4,7 @@ N = 1e5;
 
 experiencias = rand(4,N) <= 0.5;
 num = sum(experiencias);
+num
 
 X = 0:4;
 fX = zeros(1,5);
