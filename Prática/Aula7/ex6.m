@@ -59,6 +59,7 @@ Q = C(1:3, 1:3) %buscar a linha de 1-3 de C e coluna de 1-3 de C
 
 %e)
 F = (eye(3) - Q)^-1
+sum(F)
 
 %f)
 t = F'*ones(3,1);
